@@ -1,6 +1,6 @@
 import boto3
-region = 'us-west-1'
-instances = ['i-12345cb6de4f78g9h', 'i-08ce9b2d7eccf6d26']
+region = 'ap-south-1'
+instances = ['i-08e43347ac1c547a3', 'i-028cb349bae174e5c']
 ec2 = boto3.client('ec2', region_name=region)
 
 def lambda_handler(event, context):
