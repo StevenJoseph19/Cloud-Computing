@@ -17,4 +17,3 @@ $ ls
 $ cat index.html
 
 
-http://ec2-65-0-168-182.ap-south-1.compute.amazonaws.com/

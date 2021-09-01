@@ -1,0 +1,21 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Configure Apache Web Server
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+sudo yum update
+sudo amazon-linux-extras install -y lamp-mariadb10.2-php7.2 php7.2
+sudo yum install -y httpd
+sudo systemctl start httpd
+sudo systemctl enable httpd
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Create an index.html file
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+sudo chmod -R 777 /var/www/html
+cd /var/www/html
+vim index.html
+Enter following line:-
+<body bgcolor = "#33A8FF"><h1 style="color:red;"> This is a Blue Environment</h1>
+ls
+cat index.html
+
+

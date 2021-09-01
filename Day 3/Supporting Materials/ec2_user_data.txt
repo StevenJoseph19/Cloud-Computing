@@ -2,4 +2,4 @@
 yum install -y httpd.x86_64
 systemctl start httpd.service
 systemctl enable httpd.service
-echo "<h1><b>Welcome to ASG server </b></h1>"  > /var/www/html/index.html
+echo "<h1><b>Welcome to ASG server </b></h1>"  >> /var/www/html/index.html
