@@ -13,8 +13,12 @@ Create an index.html file
 sudo chmod -R 777 /var/www/html
 cd /var/www/html
 vim index.html
-Enter following line:-
+Enter following line for Blue environment:-
 <body bgcolor = "#33A8FF"><h1 style="color:red;"> This is a Blue Environment</h1>
+
+Enter following line for Green environment:-
+<body bgcolor = "#145A32"><h1 style="color:orange;"> This is a Green Environment</h1>
+
 ls
 cat index.html
 
