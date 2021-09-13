@@ -1,0 +1,19 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Configure Apache Web Server
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+sudo yum update
+sudo amazon-linux-extras install -y lamp-mariadb10.2-php7.2 php7.2
+sudo yum install -y httpd
+sudo systemctl start httpd
+sudo systemctl enable httpd
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Create an index.html file
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+$ sudo chmod -R 777 /var/www/html
+$ sudo echo "Welcome to Apache Web Server" >> /var/www/html/index.html
+$ cd /var/www/html
+$ ls
+$ cat index.html
+
+
