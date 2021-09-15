@@ -11,8 +11,14 @@ sudo systemctl enable httpd
 Create an index.html file
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 sudo chmod -R 777 /var/www/html
-sudo echo "Welcome to Apache Web Server!!" >> /var/www/html/index.html
 cd /var/www/html
+vim index.html
+Enter following line for Server 1:-
+<body bgcolor = "#33A8FF"><h1 style="color:red;"> This is an EC2 instance in Availability Zone ap-south-1a</h1>
+
+Enter following line for Server 2:-
+<body bgcolor = "#145A32"><h1 style="color:orange;"> This is an EC2 instance in Availability Zone ap-south-1b</h1>
+
 ls
 cat index.html
 
