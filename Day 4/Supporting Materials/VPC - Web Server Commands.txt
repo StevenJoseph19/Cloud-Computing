@@ -13,10 +13,10 @@ Create an index.html file
 sudo chmod -R 777 /var/www/html
 cd /var/www/html
 vim index.html
-Enter following line for Blue environment:-
+Enter following line for subnet 1 instance:-
 <body bgcolor = "#33A8FF"><h1 style="color:red;"> This is an EC2 instance in subnet 1 of sttp-vpc</h1>
 
-Enter following line for Green environment:-
+Enter following line for subnet 2 instance :-
 <body bgcolor = "#145A32"><h1 style="color:orange;"> This is an EC2 instance in subnet 2 of sttp-vpc</h1>
 
 ls
